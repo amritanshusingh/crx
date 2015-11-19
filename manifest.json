@@ -1,0 +1,21 @@
+{
+	"manifest_version" : 2,
+	"name" : "IRCTC Reservation Helper",
+	"description" : "Enables automatic filling (Autofill) of Login Data, Travel and Passenger Details and Payment mode selection",
+	"version" : "1.0",
+	"browser_action" : {
+		"default_popup" : "popup.html"	
+	},
+	"icons" : {
+		"16" : "icon/icon16.png",
+		"32" : "icon/icon32.png",
+		"128" : "icon/icon128.png",
+		"256" : "icon/icon256.png"
+	},
+	"content_scripts" : [
+		{
+			"matches" : ["https://www.google.co.in/*"],
+			"js" : ["assets/js/jquery-1.11.3.min.js"]
+		}
+	]
+}

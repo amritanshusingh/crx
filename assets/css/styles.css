@@ -1,0 +1,38 @@
+#wrapper {
+	width:300px;
+	height:450px;
+	padding: 5px;
+}
+
+#mainHeading {
+	font-size: 1.2em;
+	margin:0px;
+	margin-top:10px;
+}
+
+#subHeading {
+	margin-top:5px;
+	margin-left:80px;
+}
+
+.greyDescription {
+	display: block;
+	background-color: #f1f1f1;
+	padding: 10px;
+	font-style: italic;
+	border-radius:5px;
+	font-size: 0.9em;
+	/*box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/
+}
+
+.warning {
+	color:red;	
+}
+
+.success {
+	color:green;
+}
+
+.list-group {
+	font-size: 0.9em;
+}

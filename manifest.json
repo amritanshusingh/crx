@@ -3,6 +3,8 @@
 	"name" : "IRCTC Reservation Helper",
 	"description" : "Enables automatic filling (Autofill) of Login Data, Travel and Passenger Details and Payment mode selection",
 	"version" : "1.0",
+	"permissions" : ["storage"],
+	"options_page" : "options.html",
 	"browser_action" : {
 		"default_popup" : "popup.html"	
 	},

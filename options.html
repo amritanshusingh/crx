@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservation Autofill Data</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+	<div class="container">
+		<section class="row">
+			<div class="col col-lg-3 col-md-3 col-sm-3">
+  				<img src="icon/icon64.png" class="img img-responsive" style="margin-top:35px;float:right;">
+			</div>
+			<div class="col col-lg-9 col-md-9 col-sm-9">
+				<div class="page-header">
+					<h1>IRCTC Autofill details</h1>
+				</div>
+			</div>
+		</section>
+		<section class="row">
+				<div class="col col-lg-5 col-md-5">
+					<div class="alert alert-success" id="status" role="alert"></div>
+					<div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-edit"></span> Input Login Details</div>	
+					<div class="input-group">
+  						<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+  						<input type="text" class="form-control" id="username"  placeholder="Username" aria-describedby="basic-addon1">
+					</div>
+					<div class="input-group">
+  						<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+  						<input type="password" class="form-control" id="pass" placeholder="Password" aria-describedby="basic-addon1">
+					</div>
+				</div>
+				<div class="col col-lg-5 col-md-5">
+					<div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-edit"></span> Input Login Details</div>	
+					<div class="input-group">
+  						<span class="input-group-addon" id="basic-addon1">@</span>
+  						<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+					</div>
+				</div>
+				<div class="col col-lg-5 col-md-5">
+					<button id="save" class="btn btn-success">Save Data</button>
+					<button id="clear" class="btn btn-info">Clear Data</button>
+				</div>
+		</section>
+	</div>
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/options.js"></script>
+  </body>
+</html>
+
